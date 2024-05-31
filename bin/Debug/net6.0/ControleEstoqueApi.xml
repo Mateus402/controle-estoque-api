@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ControleEstoqueApi</name>
+    </assembly>
+    <members>
+        <member name="T:ControleEstoqueApi.Controllers.Cadastro.ProdutoController">
+            <summary>
+            Informações do Cadastro do Produto
+            </summary>
+        </member>
+        <member name="M:ControleEstoqueApi.Controllers.Cadastro.ProdutoController.GetProdutos(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="skip"></param>
+            <param name="take"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ControleEstoqueApi.Controllers.Cadastro.ProdutoController.GetProduto(System.Int64)">
+            <summary>
+            Retorna um Produto pelo Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ControleEstoqueApi.Controllers.Cadastro.ProdutoController.AddProduto(ControleEstoqueApi.Dtos.ProdutoDTO)">
+            <summary>
+            Criar um novo produto
+            </summary>
+        </member>
+    </members>
+</doc>
